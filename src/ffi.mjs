@@ -21,7 +21,7 @@ export const init = (on_url_change) => {
 					}
 				});
 
-				return void on_url_change(location.href);
+				return void on_url_change(url.href);
 			}
 
 			target = target.parentNode;
